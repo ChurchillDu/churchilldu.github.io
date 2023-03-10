@@ -166,7 +166,7 @@ function pipeline() {
 
 // https://astro.build/config
 export default defineConfig({
-  site: SITE_URL,
+  site: 'https://churchilldu.github.io',
   markdown: {
     rehypePlugins: pipeline(),
     syntaxHighlight: 'prism',
